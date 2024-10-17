@@ -107,3 +107,13 @@ section p {
 .download-button:hover {
     background-color: #0056b3;
 }
+
+.contact a {
+    color: #007BFF; /* El mismo color que el título */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
