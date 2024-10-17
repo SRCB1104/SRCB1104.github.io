@@ -88,6 +88,18 @@ section p {
     text-align: left;
 }
 
+/* Enlace en la sección de contacto */
+.contact a {
+    color: #007BFF; /* El mismo color que el título */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
+
+
 /* Sección de descargas */
 .downloads {
     margin-top: 20px;
