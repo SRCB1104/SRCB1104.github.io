@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e9f5f5;
     color: #333;
     margin: 0;
     padding: 20px;
@@ -36,7 +36,7 @@ body {
 .name-title h1 {
     font-size: 36px;
     margin: 0;
-    color: #007BFF;
+    color: #28a745;
 }
 
 .name-title p {
@@ -57,7 +57,7 @@ body {
 
 /* Secciones */
 section h2 {
-    background-color: #007BFF;
+    background-color: #28a745;
     color: white;
     padding: 10px;
     margin-bottom: 10px;
@@ -74,7 +74,7 @@ section ul li {
     background: #f9f9f9;
     margin: 5px 0;
     padding: 10px;
-    border-left: 4px solid #007BFF;
+    border-left: 4px solid #28a745;
     text-align: left;
 }
 
@@ -97,7 +97,7 @@ section p {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #28a745;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -105,7 +105,7 @@ section p {
 }
 
 .download-button:hover {
-    background-color: #0056b3;
+    background-color: #218838;
 }
 
 .contact a {
@@ -114,4 +114,14 @@ section p {
 
 .contact a:hover {
     text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
